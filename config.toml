@@ -1,6 +1,5 @@
-# baseURL = "http://example.org/"
 # Site settings
-baseurl = "https://www.example.com"
+baseurl = "https://brunap.github.io/"
 languageCode = "en-us"
 title = "Highlights"
 theme = "highlights"
