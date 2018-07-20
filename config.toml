@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://brunap.github.io/"
 languageCode = "en-us"
-title = "Highlights"
+title = "Revelo.bi"
 theme = "highlights"
 
 # Enter your tracking code to enable Google analytics
@@ -16,8 +16,8 @@ googleAnalytics = ""
 
   # To provide more meta data for search engings feel free to add a few informations.
   # This lines will be inserted as meta tags.
-  name = "Your Name"
-  description = "Your Description"
+  name = "Revelo"
+  description = "Data mining and data visualization with the Orange Datamining software"
 
   # For a static site it's not possible to provide a contact form. The contact form uses
   # www.formspree.io as a proxy. The form makes a Post request to their servers to send an email
@@ -30,39 +30,48 @@ googleAnalytics = ""
   # - send a dummy email to yourself to confirm your account
   # - click the confirmation link in the email from www.formspree.io
   # - That's all. Enjoy mailing!
-  email = "your@mail.com"
+  email = "bruna@revelo.bi"
 
   # If this param is set to true, every section gets an own background image (located at static/images)
   # to change the image you could use the param picture on every section.
   # If it's disabled you could change the background to overwrite the bg.png and overlay.png to set the background.
-  backgroundpersection = true
+  backgroundpersection = false
 
   # hero Section
   [params.hero]
     type = "hero"
-    title = "Highlights"
-    description = "a fun litte { responsive } single Pager by [HTML5UP](//html5up.net)"
+    title = "Revelo"
+    description = "Shed light on your data <br> with the [Orange Data mining](//orange.biolab.si) machine learning and data visualization"
     buttontext = "begin"
 
   # about section
-  [[params.block]]
-    id = "about"
-    type = "text"
-    title = "Who am I"
-    description = "Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum."
-    buttontext = "next"
+  #[[params.block]]
+  #  id = "about"
+  #  type = "text"
+  #  title = "Who is Revelo?"
+  #  description = "Revelo is a data mining and business improving company. Our goal is to spread democratization in the world of data analytics. We are bridging the gap between industry and data science. We mine data to find insights that can help your business bloom."
+  #  buttontext = "next"
     # the picture is storead at static/images/
-    picture = "pic01.jpg"
+  #  picture = "pic01.jpg"
+
+  # infos section
+  [[params.block]]
+    id = "infos"
+    type = "text"
+    title = "Coming soon ..."
+    description = "We are currently under construction. Check back soon or [contact us](#contact)."
+    # the picture is storead at static/images/
+    picture = "pic03.jpg"
 
   # skill section
-  [[params.block]]
-    id = "skills"
-    type = "list"
-    title = "Stuff I do"
-    description = "Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet vulputate."
-    buttontext = "next"
+  #[[params.block]]
+  #  id = "skills"
+  #  type = "list"
+  #  title = "Our projects"
+  #  description = "Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet vulputate."
+  #  buttontext = "next"
     # the picture is storead at static/images/
-    picture = "pic02.jpg"
+  #  picture = "pic02.jpg"
 
     [[params.block.item]]
       icon = "fa-camera-retro"
@@ -80,14 +89,6 @@ googleAnalytics = ""
       icon = "fa-coffee"
       title = "Sed Feugiat"
 
-  # infos section
-  [[params.block]]
-    id = "infos"
-    type = "text"
-    title = "One more thing"
-    description = "Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum."
-    # the picture is storead at static/images/
-    picture = "pic03.jpg"
 
 #  # custom section
 #  [[params.block]]
@@ -122,40 +123,36 @@ googleAnalytics = ""
     [params.footer.social_list]
       enable = true
 
-      [[params.footer.social]]
-        title = "Twitter"
-        icon = "fa-twitter"
-        link = "#"
+      #[[params.footer.social]]
+      #  title = "Twitter"
+      #  icon = "fa-twitter"
+      #  link = "#"
 
-      [[params.footer.social]]
-        title = "Facebook"
-        icon = "fa-facebook"
-        link = "#"
+      #[[params.footer.social]]
+      #  title = "Facebook"
+      #  icon = "fa-facebook"
+      #  link = "#"
 
-      [[params.footer.social]]
-        title = "Instagramm"
-        icon = "fa-instagram"
-        link = "#"
+      #[[params.footer.social]]
+      #  title = "Instagramm"
+      #  icon = "fa-instagram"
+      #  link = "#"
 
-      [[params.footer.social]]
-        title = "Dribbble"
-        icon = "fa-dribbble"
-        link = "#"
+      #[[params.footer.social]]
+      #  title = "Dribbble"
+      #  icon = "fa-dribbble"
+      #  link = "#"
 
-      [[params.footer.social]]
-        title = "Email"
-        icon = "fa-envelope"
-        link = "#"
+      #[[params.footer.social]]
+      #  title = "Email"
+      #  icon = "fa-envelope"
+      #  link = "#"
 
     # copyright
     #[params.footer.copyright.notice]
 
       [[params.footer.copyright.notice]]
-        text = "© Untitled"
+        text = "© 2018 Revelo d.o.o."
 
       [[params.footer.copyright.notice]]
         text = "Design: [HTML5UP](//html5up.net)"
-
-      [[params.footer.copyright.notice]]
-        text = "Demo Images: [Unsplash](//unsplash.com/)"
-
