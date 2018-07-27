@@ -5,7 +5,7 @@ title = "Revelo.bi"
 theme = "highlights"
 
 # Enter your tracking code to enable Google analytics
-googleAnalytics = ""
+googleAnalytics = "UA-60079743-1"
 
 [params]
 
